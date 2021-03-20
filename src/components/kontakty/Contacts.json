@@ -1,0 +1,67 @@
+{
+  "gyms": [
+    {
+      "city": "Frýdek-Místek (centrála)",
+      "coach": "Robin Javorek (černý pás)",
+      "mobil": "+420 724 711 515",
+      "address": "Jiráskova (Mánesova) 3320, Frýdek-Místek",
+      "email": "frydekmistek@draculino.cz",
+      "fb": "www.facebook.com/draculino.frydekmistek",
+      "ig": "www.instagram.com/draculino.frydekmistek"
+    },
+    {
+      "city": "Vyškov",
+      "coach": "Zdeněk Kaňa (fialový pás)",
+      "mobil": "+420 607 654 288",
+      "email": "moravskemalkovice@draculino.cz",
+      "address": "Palánek 476/75, 682 01 Výškov",
+      "fb": " www.facebook.com/gbmoravskemalkovice",
+      "ig": "none"
+    },
+    {
+      "city": "Olomouc",
+      "coach": "Karel Kazlepka (hnědý pás)",
+      "mobil": "+420 731 756 921",
+      "address": "Holická 559/31q, Olomouc – Hodolany",
+      "email": "olomouc@draculino.cz",
+      "fb": "https://www.facebook.com/draculino.olomouc/",
+      "ig": "none"
+    },
+    {
+      "city": "Opava",
+      "coach": "Pavel Roder (fialový pás)",
+      "mobil": "+420 604 595 035",
+      "address": "B. Němcové 1/20, Opava",
+      "email": "opava@draculino.cz",
+      "fb": "www.facebook.com/draculino.opava",
+      "ig": "www.instagram.com/draculino.opava"
+    },
+    {
+      "city": "Ostrava",
+      "coach": "Jan „Nitro“ Heindl (hnědý pás)",
+      "mobil": "+420 739 537 778",
+      "address": "Moravská 964/2, Ostrava-Vítkovice",
+      "email": "ostrava@draculino.cz",
+      "fb": "www.facebook.com/draculino.ostrava",
+      "ig": "www.instagram.com/draculino.ostrava"
+    },
+    {
+      "city": "Třinec",
+      "coach": "Michal „Hero“ Sumelidis (hnědý pás)",
+      "mobil": "+420 722 036 028",
+      "address": "Komenského 812, Třinec",
+      "email": " trinec@draculino.cz",
+      "fb": "www.facebook.com/draculino.trinec",
+      "ig": "www.instagram.com/draculino.trinec"
+    },
+    {
+      "city": "Zlín",
+      "coach": "Radek Spáčil (fialový pás)",
+      "mobil": "+420 603 569 181",
+      "address": "Kvítková 3687, Zlín",
+      "email": "zlin@draculino.cz",
+      "fb": "www.facebook.com/draculino.zlin",
+      "ig": "none"
+    }
+  ]
+}
