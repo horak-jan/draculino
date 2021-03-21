@@ -1,0 +1,1139 @@
+@font-face {
+  font-family: "newtown";
+  src: url("../styles/NEWTOWBI.TTF") format("truetype");
+}
+
+$newtown: "newtown", sans-serif;
+$gb-color: #e1251b;
+$light-blue: #3b8beb;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// MOBILE
+
+// loader
+// MOBILE
+.loader {
+  img {
+    width: 100px;
+    height: 100px;
+    animation: spin 4s infinite linear;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+// Navbar
+// MOBILE
+.navbar {
+  width: 100%;
+  height: 95px;
+  margin: 0 auto;
+  font-family: $newtown;
+  max-width: 1200px;
+
+  //hide large navbar
+  .nav {
+    display: none;
+  }
+
+  //show small nav
+  .burger {
+    height: 99%;
+    width: 100%;
+    box-shadow: 0 2px 6px 1px black;
+    #logo {
+      height: 94px;
+      width: 100vw;
+    }
+
+    .burger-head-link {
+      color: white;
+      position: relative;
+      display: none;
+      left: 80px;
+      top: -70px;
+      font-weight: 500;
+      width: 200px;
+      text-transform: uppercase;
+      #first {
+        font-size: 30px;
+      }
+      #second {
+        font-size: 24px;
+        position: relative;
+        top: -5px;
+      }
+    }
+    .burger-button-wrapper-opened {
+      display: none;
+    }
+    .burger-button-wrapper-closed {
+      padding: 10px;
+      margin-right: 2vw;
+      float: right;
+      box-shadow: inset -1px 4px 5px -3px #000000;
+      height: 15px;
+      width: 65px;
+      border-radius: 0 0 10px 10px;
+
+      p {
+        font-family: $newtown;
+        color: $gb-color;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        font-size: 13px;
+      }
+      .burger-button {
+        height: 25px;
+        width: 25px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 45px;
+        top: -15px;
+      }
+    }
+
+    //burger menu when closed
+    .hidden-style {
+      left: 0px;
+      position: fixed;
+      top: -50vh;
+      width: 100vw;
+      transition: 0.5s;
+      overflow: visible;
+      height: 50vh;
+
+      .burger-visible-button-wrapper {
+        display: none;
+      }
+
+      ul {
+        display: none;
+        li {
+          display: none;
+        }
+      }
+    }
+
+    //burger menu when opened
+    .visible-style {
+      left: 0;
+      position: fixed;
+      top: 94px;
+      width: 100vw;
+      height: 66vh;
+      transition: 0.6s;
+      text-decoration: none;
+      background-image: url("gb-menu-logo.png");
+      background-color: rgba(0, 0, 0, 0.9);
+      text-align: center;
+      padding-top: 10px;
+      background-position-y: -66px;
+      background-position-x: -295px;
+      background-repeat: no-repeat;
+      background-size: 700px;
+      box-shadow: inset -1px 6px 5px -3px #000000;
+      z-index: 10;
+
+      .burger-visible-button-wrapper {
+        position: relative;
+        display: block;
+        height: 35px;
+        width: 85px;
+        float: right;
+        top: -55vh;
+
+        img {
+          height: 25px;
+          width: 25px;
+          padding: 10px 15px 2px 45px;
+          float: right;
+        }
+      }
+      ul {
+        display: block;
+        height: 50vh;
+        position: relative;
+        width: 100%;
+        padding: 15px 0;
+
+        li:first-of-type {
+          font-size: 1.25em;
+          border-top: 1px solid #eee;
+          margin-top: 5px;
+          padding-top: 15px;
+        }
+        li {
+          list-style-type: none;
+          display: block;
+          float: none;
+          padding: 12px 0;
+          border-bottom: 1px solid #eee;
+          width: 90%;
+          margin: 5px auto;
+          height: 36px;
+
+          a {
+            text-transform: uppercase;
+            padding: 15px;
+            padding-right: 0;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+            &:active {
+              color: $gb-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// O nas
+// MOBILE
+.o-nas {
+  width: 100vw;
+  max-width: 1200px;
+  font-family: monospace;
+  margin: 0 auto;
+
+  .vinicius {
+    margin: 3vh auto;
+    max-width: 1200px;
+    width: 80vw;
+
+    .large h2 {
+      margin: 6vh 0 3vh 0;
+      text-align: center;
+    }
+    h3 {
+      margin: 2vh 0;
+      text-align: center;
+    }
+    p {
+      margin-top: 2vh;
+    }
+    .small {
+      width: 100%;
+      margin: 2vh 0;
+    }
+    .large {
+      display: none;
+    }
+    ul {
+      margin-top: 1vh;
+      li {
+        margin-top: 1vh;
+      }
+    }
+  }
+
+  .rules {
+    margin: 3vh auto;
+    width: 80vw;
+    max-width: 1200px;
+    h2 {
+      text-align: center;
+    }
+
+    h4 {
+      margin: 2vh 0;
+    }
+    h3 {
+      text-align: center;
+      margin: 3vh 0;
+    }
+
+    ol {
+      li {
+        margin-top: 3vh;
+        .bold {
+          font-weight: 650px;
+        }
+      }
+    }
+  }
+  .tournaments {
+    margin: 3vh auto;
+    width: 80vw;
+    max-width: 1200px;
+    img {
+      width: 90%;
+      margin-top: 2vh;
+      margin-left: auto;
+      max-width: 1100px;
+      margin-right: auto;
+      display: block;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      padding-top: 10px;
+    }
+    .bold {
+      font-weight: 650;
+    }
+    .year {
+      margin: 2vh 3vw;
+    }
+    .grey {
+      background-color: #f8f8ff;
+    }
+  }
+}
+
+// contact for cus. suppport
+.webmaster-page {
+  padding-bottom: 5vh;
+  max-width: 1200px;
+  h2 {
+    margin: 10vh 0 5vh 0;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    padding: 1vh 5vw;
+  }
+  .webmaster-form {
+    margin-top: 10px;
+    padding: 0 5vw;
+
+    .form-error {
+      padding: 0;
+    }
+    label {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    input {
+      margin: 5px auto;
+      width: 90vw;
+      height: 30px;
+      text-align: center;
+      font-size: 20px;
+      option {
+        text-align: center;
+      }
+    }
+
+    .notes {
+      height: 60px;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    .form-error {
+      color: #e1251b;
+      text-align: center;
+      margin: 5px 0;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .buttonWrapper {
+      width: 100%;
+      text-align: center;
+
+      button {
+        height: 50px;
+        width: 50vw;
+        margin: 15px;
+        color: black;
+        background-color: $light-blue;
+        align-content: center;
+        font-family: $newtown;
+        letter-spacing: 0.1rem;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.four-o-four {
+  min-height: 70vh;
+  width: 80vw;
+  font-size: 25px;
+  margin: 15vh auto;
+  max-width: 1200px;
+  h2 {
+    margin-bottom: 5vh;
+  }
+  P {
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      text-decoration: underline;
+      font-family: $newtown;
+    }
+  }
+}
+
+// Kurzy
+// Mobil
+
+.kurzy {
+  background-color: #353232;
+  background-image: url("./draculino-background.jpg");
+  min-height: 88vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 156vh;
+  background-position-x: -114vw;
+  padding-bottom: 4vh;
+  max-width: 1200px;
+  .single-kurz {
+    margin: 1vh auto;
+    width: 100%;
+    min-height: 10%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid black;
+
+    h2 {
+      padding-top: 10px;
+      a {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        min-width: 50vw;
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+      }
+    }
+    p {
+      border: 1px solid red;
+    }
+    .hidden-button {
+      display: none;
+    }
+    .visible-button {
+      display: block;
+    }
+    .visible-kurz {
+      min-height: 15vh;
+      width: 100%;
+      border: 1px solid blue;
+      display: block;
+
+      p {
+        margin: 1vh auto;
+        border: 1px solid blue;
+      }
+      .fakeimg {
+        width: 250px;
+        height: 100px;
+        border: 1px solid red;
+      }
+    }
+    .hidden-kurz {
+      display: none;
+    }
+  }
+  div:first-of-type {
+    padding-top: 2vh;
+  }
+
+  .carousel {
+    height: 80vh;
+    width: 100vw;
+    div {
+      position: absolute;
+      top: 18px;
+      z-index: -1;
+      .carousel-initialized {
+        width: 100vw;
+        height: 96vh;
+      }
+      .carousel-track {
+        border: 1px solid red;
+        height: 80vh;
+        width: 100vw;
+        position: relative;
+        top: 1px;
+
+        .carousel-item {
+          border: 1px solid black;
+          height: 100vh;
+          width: 100vw;
+          overflow: hidden;
+          img {
+            // transform: scaleY(1.3);
+            // transform: scaleX(1.7);
+            overflow: hidden;
+
+            width: 100vw;
+            height: 100vh;
+          }
+          // .active {
+          //   height: 100%;
+          //   border: 1px solid green;
+          //   width: 100%;
+        }
+      }
+    }
+  }
+
+  .kurz-content {
+    width: 100vw;
+    height: 100vw;
+
+    // .test {
+    //   position: relative;
+    //   top: -50vh;
+    //   widows: 50%;
+    //   text-align: center;
+    //   color: white;
+    //   h3 {
+    //     text-transform: uppercase;
+    //   }
+    //   h2 {
+    //     margin-top: 6vh;
+    //   }
+    // }
+  }
+}
+
+// Chci zacit page
+// MOBILE
+
+.chci-zacit {
+  width: 80vw;
+  min-height: 70vh;
+  text-align: center;
+  margin: 1vh auto;
+  padding-top: 4vh;
+  padding-bottom: 3vh;
+  max-width: 1200px;
+  .buttonWrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3vh;
+
+    button {
+      height: 50px;
+      width: 50vw;
+      margin: 15px;
+      color: $gb-color;
+      background-color: #f8f8ff;
+      box-shadow: 4px 3px 5px 1px #000;
+      align-content: center;
+      font-family: $newtown;
+      letter-spacing: 0.1rem;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+  .single-faq {
+    h3 {
+      margin: 1vh 0;
+      font-size: 17px;
+    }
+    h3:first-of-type {
+      margin-top: 4vh;
+    }
+    p {
+      margin-bottom: 3vh;
+    }
+  }
+}
+
+// Registrace
+// MOBILE
+
+.registrace {
+  margin-top: 10px;
+  padding: 10vw 5vw 5vh;
+  max-width: 1200px;
+  h2 {
+    text-align: center;
+    font-family: $newtown;
+    margin: 1vh 0 3vh 0;
+    letter-spacing: 0.14rem;
+    font-size: 23px;
+  }
+
+  label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  input,
+  select {
+    margin: 5px auto;
+    width: 90vw;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    option {
+      text-align: center;
+    }
+  }
+
+  .notes {
+    height: 60px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .form-error {
+    color: #e1251b;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .buttonWrapper {
+    width: 100%;
+    text-align: center;
+
+    button {
+      height: 50px;
+      width: 50vw;
+      box-shadow: 4px 3px 5px 1px #000;
+      margin: 15px;
+      color: $gb-color;
+      align-content: center;
+      font-family: $newtown;
+      letter-spacing: 0.1rem;
+      font-size: 16px;
+      background-color: #f8f8ff;
+      text-transform: uppercase;
+    }
+  }
+  p {
+    margin-bottom: 3vh;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .last-p {
+    margin-bottom: 10px;
+    margin-top: 3vh;
+  }
+}
+
+// Homepage
+// MOBILE
+
+.home {
+  // part one
+
+  max-width: 1200px;
+  .home-one {
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.99),
+        rgba(255, 255, 255, 0.1)
+      ),
+      url("../styles/gym-all.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 12vh;
+    background-size: 85vh;
+    background-position-x: -35vw;
+
+    @media (min-width: 530px) {
+      background-size: 100vw;
+      background-position-x: 0;
+      background-position-y: 25vh;
+    }
+    @media (min-width: 700px) {
+      background-position-y: 12vh;
+    }
+    @media (min-width: 1000px) {
+      background-position-y: 0;
+    }
+
+    .home-one-covid {
+      height: 15vh;
+      width: 100vw;
+      color: $gb-color;
+      position: relative;
+      top: 18vh;
+      left: -5vw;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 3px 5px 1px #000;
+      -moz-box-shadow: 4px 3px 5px 1px #000;
+      box-shadow: 4px 3px 5px 1px #000;
+
+      p {
+        padding-top: 30px;
+        font-size: 14px;
+        width: 90%;
+        font-weight: 550;
+        position: relative;
+        left: 10vw;
+        font-family: monospace;
+        letter-spacing: 0.05rem;
+      }
+    }
+
+    .home-one-header {
+      letter-spacing: 0.1rem;
+      font-family: $newtown;
+      width: 100vw;
+      position: relative;
+      top: 15vw;
+      .first-header {
+        font-size: 15px;
+        max-width: 70%;
+        position: relative;
+        left: 10vw;
+        top: -2vh;
+      }
+
+      .second-header {
+        font-size: 15px;
+        max-width: 70%;
+        position: relative;
+        left: 30vw;
+        top: 1vh;
+      }
+    }
+
+    // hide homepage for large screen
+    .home-large-screen {
+      display: none;
+    }
+
+    // homepage contact
+    .home-one-contact {
+      padding-bottom: 20px;
+      letter-spacing: 0.1rem;
+      background-color: $light-blue;
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 50vh;
+      font-size: 15px;
+
+      .home-one-contact-media {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        a {
+          filter: grayscale(100%);
+          height: 45px;
+          width: 45px;
+          &:hover {
+            filter: grayscale(0);
+          }
+
+          img {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+
+      p {
+        font-family: monospace;
+        font-size: 12px;
+        margin-top: 4px;
+        .home-contact-bold {
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .home-two {
+    min-height: 60vh;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #f8f8ff;
+
+    .home-two-header {
+      padding-top: 35px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 19px;
+      font-family: monospace;
+    }
+    .home-form {
+      margin-top: 10px;
+      padding: 0 5vw;
+      font-family: monospace;
+
+      label {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        letter-spacing: 0.09rem;
+      }
+
+      input,
+      select {
+        margin: 5px auto;
+        width: 90vw;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        option {
+          text-align: center;
+        }
+      }
+
+      .notes {
+        height: 60px;
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .form-error {
+        color: #e1251b;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .buttonWrapper {
+        width: 100%;
+        text-align: center;
+
+        button {
+          height: 50px;
+          width: 50vw;
+          margin: 15px;
+          color: black;
+          background-color: $light-blue;
+          align-content: center;
+          font-family: $newtown;
+          letter-spacing: 0.1rem;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .home-three {
+    height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    h2 {
+      margin: 1vh 0;
+      width: 100%;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      font-family: $newtown;
+      font-size: 20px;
+      margin: 3vh 0;
+    }
+    h2:first-of-type {
+      padding-top: 5vh;
+      width: 100%;
+      letter-spacing: 0.05rem;
+      margin: 0;
+    }
+    p {
+      width: 100%;
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+      margin: 4vh 0 3vh 0;
+    }
+
+    button {
+      height: 50px;
+      width: 50vw;
+      margin: 15px;
+
+      background-color: white;
+      align-content: center;
+      font-family: $newtown;
+      letter-spacing: 0.1rem;
+      font-size: 16px;
+      text-transform: uppercase;
+      a {
+        color: $gb-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .home-four {
+    margin: 0 auto;
+    min-height: 60vh;
+    width: 80vw;
+    background-size: 70vh;
+    background-repeat: none;
+    text-align: center;
+    padding-bottom: 3vh;
+
+    h2 {
+      width: 100%;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      font-family: "newtown", sans-serif;
+      font-size: 20px;
+      margin: 3vh 0;
+      line-height: 35px;
+    }
+
+    p {
+      width: 100%;
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+      margin: 4vh auto 3vh auto;
+    }
+
+    .img-container {
+      width: 80vw;
+      height: 50vh;
+      overflow: hidden;
+      margin: 0 auto;
+      .img1 {
+        transform: scale(2, 1.6);
+        height: 100%;
+        width: 100%;
+        transform: scale(1.5, 1.3);
+        position: relative;
+        left: -70px;
+        top: -25px;
+      }
+
+      .img3 {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: -70px;
+        top: 48px;
+        transform: scale(1.4, 1.4);
+        left: -63px;
+      }
+    }
+  }
+}
+
+// contacts
+// MOBILE
+.contact {
+  width: 100vw;
+  padding-top: 2vh;
+  font-family: monospace;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80vh;
+  .contact-main {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 400px;
+    h2 {
+      width: 100%;
+      letter-spacing: 0.05rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "newtown", sans-serif;
+      font-size: 20px;
+      margin: 3vh 0;
+      line-height: 35px;
+    }
+  }
+  .gym-contacts {
+    padding: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    .single-contact {
+      width: 90vw;
+      margin: 2vh auto;
+      max-width: 360px;
+
+      h3 {
+        text-align: center;
+        margin: 1vh;
+      }
+      p {
+        .bold {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+// footer
+// MOBILE
+.footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  background-color: #f8f8ff;
+  font-family: monospace;
+  max-width: 1200px;
+  margin: 0 auto;
+  .home-one-contact-media {
+    padding-top: 5px;
+  }
+  .webmaster {
+    padding-bottom: 10px;
+    letter-spacing: 0.02rem;
+    font-size: 8px;
+    a {
+      color: $gb-color;
+    }
+  }
+}
+
+//TABLET / pc
+// 769px +
+
+@media (min-width: 769px) {
+  // navbar
+  .navbar {
+    height: 0;
+    // hide small nav
+
+    .burger {
+      display: none;
+    }
+    //show nav
+
+    .nav {
+      // width: 770px;
+      width: 100vw;
+      max-width: 1200px;
+      display: block;
+      margin: 0 auto;
+
+      img {
+        width: 100vw;
+        max-width: 1200px;
+        height: 140px;
+      }
+      ul {
+        height: 4vh;
+        padding-top: 1vh;
+        display: flex;
+        background-color: $gb-color;
+        justify-content: space-around;
+        li {
+          list-style-type: none;
+          display: inline;
+          a {
+            color: white;
+            font-size: 21px;
+            text-decoration: none;
+            padding: 8px 22px;
+            width: 100%;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .home-one {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-image: none;
+
+      .home-large-screen {
+        display: block;
+        width: 100%;
+        max-width: 1200px;
+      }
+      .home-one-covid {
+        display: none;
+      }
+      .home-one-contact {
+        max-width: 1200px;
+        margin: 0 auto;
+        .home-one-contact-media {
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .home-two {
+      .home-form {
+        text-align: center;
+        input,
+        select {
+          width: 70vw;
+          max-width: 600px;
+        }
+        button {
+          width: 400px;
+        }
+      }
+    }
+
+    .home-three {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+      height: 50vh;
+      p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      button {
+        width: 400px;
+      }
+    }
+
+    .home-four {
+      max-width: 1200px;
+      margin: 0 auto;
+      p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .img-container {
+        max-width: 1200px;
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+  .chci-zacit .buttonWrapper button {
+    width: 400px;
+  }
+
+  .o-nas {
+    .vinicius {
+      .small {
+        display: none;
+      }
+      .large {
+        display: block;
+      }
+    }
+  }
+}

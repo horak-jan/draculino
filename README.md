@@ -1,0 +1,3 @@
+Převedení stávajícího WordPress webu do React-u, nový vzhled a doplnění responsivního designu.
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
