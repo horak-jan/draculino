@@ -422,24 +422,23 @@
 }
 
 .kurzy {
-  background-color: #353232;
+  background-color: #9e9e9e;
   background-image: url("./draculino-background.jpg");
-  min-height: 88vh;
   width: 100vw;
   background-repeat: no-repeat;
-  background-size: 156vh;
-  background-position-x: -114vw;
-  padding-bottom: 4vh;
+  background-size: 245vh;
+  background-position-x: -207vw;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .kurzy .single-kurz {
-  margin: 1vh auto;
   width: 100%;
-  min-height: 10%;
+  min-height: 1vh;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid black;
+  padding-bottom: 3vh;
 }
 
 .kurzy .single-kurz h2 {
@@ -452,46 +451,42 @@
   text-transform: uppercase;
   min-width: 50vw;
   color: white;
-  font-size: 19px;
+  font-size: 21px;
+  font-family: "newtown", sans-serif;
   text-decoration: none;
 }
 
 .kurzy .single-kurz p {
-  border: 1px solid red;
+  margin: 1vh 1vw;
+  font-family: monospace;
 }
 
-.kurzy .single-kurz .hidden-button {
-  display: none;
+.kurzy .single-kurz button {
+  height: 30px;
+  width: 35vw;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: rgba(0, 0, 0, 0);
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: "newtown", sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 1vh;
 }
 
-.kurzy .single-kurz .visible-button {
-  display: block;
-}
-
-.kurzy .single-kurz .visible-kurz {
-  min-height: 15vh;
-  width: 100%;
-  border: 1px solid blue;
-  display: block;
-}
-
-.kurzy .single-kurz .visible-kurz p {
-  margin: 1vh auto;
-  border: 1px solid blue;
-}
-
-.kurzy .single-kurz .visible-kurz .fakeimg {
-  width: 250px;
-  height: 100px;
-  border: 1px solid red;
-}
-
-.kurzy .single-kurz .hidden-kurz {
-  display: none;
+.kurzy .single-kurz button a {
+  color: black;
 }
 
 .kurzy div:first-of-type {
-  padding-top: 2vh;
+  padding-top: 4vh;
+}
+
+.kurzy div:last-of-type {
+  background-color: #999999;
+  border: none;
+  padding-bottom: 4vh;
 }
 
 .kurzy .carousel {
@@ -668,8 +663,8 @@
 .home .home-one {
   height: 80vh;
   width: 100vw;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.99)), to(rgba(255, 255, 255, 0.1))), url("../styles/gym-all.jpg");
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.1)), url("../styles/gym-all.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.99)), to(rgba(255, 255, 255, 0.1))), url("../images/gb-all.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.1)), url("../images/gb-all.jpg");
   background-repeat: no-repeat;
   background-position-y: 12vh;
   background-size: 85vh;
@@ -984,7 +979,6 @@
   font-family: monospace;
   max-width: 1200px;
   margin: 0 auto;
-  height: 80vh;
 }
 
 .contact .contact-main {
@@ -1011,6 +1005,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 3vh;
 }
 
 .contact .gym-contacts .single-contact {
@@ -1054,7 +1049,7 @@
 
 @media (min-width: 769px) {
   .navbar {
-    height: 0;
+    height: 165px;
   }
   .navbar .burger {
     display: none;
@@ -1102,6 +1097,7 @@
     max-width: 1200px;
     margin: 0 auto;
     background-image: none;
+    height: 64vh;
   }
   .home .home-one .home-large-screen {
     display: block;
@@ -1114,6 +1110,7 @@
   .home .home-one .home-one-contact {
     max-width: 1200px;
     margin: 0 auto;
+    top: -12vh;
   }
   .home .home-one .home-one-contact .home-one-contact-media {
     max-width: 1200px;
@@ -1161,6 +1158,14 @@
   }
   .chci-zacit .buttonWrapper button {
     width: 400px;
+  }
+  .o-nas .vinicius h2 {
+    text-align: center;
+    margin: 5vh auto;
+  }
+  .o-nas .vinicius h3 {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
   }
   .o-nas .vinicius .small {
     display: none;

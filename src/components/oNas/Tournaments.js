@@ -9,6 +9,10 @@ import Tournaments2014 from "./Tournaments2014.json";
 import Tournaments2013 from "./Tournaments2013.json";
 import Tournaments2012 from "./Tournaments2012.json";
 import Tournaments2011 from "./Tournaments2012.json";
+import Kids1 from "../../images/kids10.jpg";
+import Kids2 from "../../images/kids16.jpg";
+import Adults from "../../images/adultwin.jpg";
+
 const Tournaments = () => {
   return (
     <div className="tournaments">
@@ -23,6 +27,8 @@ const Tournaments = () => {
         <p>{tournament}</p>
       ))}
 
+      <img href="boys tournament" src={Kids1} />
+
       <p className="bold year">2018</p>
       {Tournaments2018.tournaments.map((tournament) => (
         <p className="grey">{tournament}</p>
@@ -32,6 +38,7 @@ const Tournaments = () => {
       {Tournaments2017.tournaments.map((tournament) => (
         <p>{tournament}</p>
       ))}
+      <img href="girls tournament" src={Kids2} />
 
       <p className="bold year">2016</p>
       {Tournaments2016.tournaments.map((tournament) => (
@@ -42,6 +49,9 @@ const Tournaments = () => {
       {Tournaments2015.tournaments.map((tournament) => (
         <p>{tournament}</p>
       ))}
+
+      <img href="adults win" src={Adults} />
+
       <p className="bold year">2014</p>
       {Tournaments2014.tournaments.map((tournament) => (
         <p className="grey">{tournament}</p>

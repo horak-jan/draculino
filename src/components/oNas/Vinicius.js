@@ -1,5 +1,10 @@
 import React from "react";
-import ViniciusPhoto from "../../images/vinicius.jpg";
+import Vinicius1 from "../../images/vinicius.jpg";
+import Vinicius2 from "../../images/vinicius2.jpg";
+import Vinicius3 from "../../images/vinicius3.jpg";
+import ReadySlider from "../ui/ReadySlider";
+
+const StyleSettings = { width: "100%", height: "60vh" };
 const Vinicius = () => {
   return (
     <div className="vinicius">
@@ -12,7 +17,19 @@ const Vinicius = () => {
         prodávaných BJJ instruktážních videí všech dob.
       </p>
 
-      <img src={ViniciusPhoto} alt="Vinicius Draculino Magalhaes" />
+      <img
+        src={Vinicius1}
+        className="small"
+        alt="Vinicius Draculino Magalhaes"
+      />
+      <div className="large">
+        <ReadySlider
+          Image1={Vinicius1}
+          Image2={Vinicius2}
+          Image3={Vinicius3}
+          StyleSettings={StyleSettings}
+        />
+      </div>
       <h3>DRACULINO DOSTAL SVOU PŘEZDÍVKU OD UČITELE MATEMATIKY.</h3>
 
       <p>

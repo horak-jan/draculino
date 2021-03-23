@@ -5,7 +5,9 @@ import LogoNavLarge from "../../images/gb-logo-main.jpg";
 const Nav = () => {
   return (
     <nav className="nav">
-      <img alt="logo" src={LogoNavLarge} />
+      <a href="/">
+        <img alt="logo" src={LogoNavLarge} />{" "}
+      </a>
       <ul>
         <li>
           <Link to="/">Úvod</Link>

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jiu-Jitsu",
+    "shortText": "Brazilské Jiu-Jitsu je způsob boje na zemi, využívající kontrolu oponenta, páky a škrcení"
+  },
+  {
+    "name": "MMA",
+    "shortText": "Jedná se o smíšená bojová umění, jenž se skládají z úderových disciplín, ze zápasu a boje na zemi"
+  },
+  {
+    "name": "Kondicní box",
+    "shortText": "Využívá úderů nad pás s cílem knockoutovat soupeře k zemi. Důraz je zde kladen na pohyb a načasování"
+  },
+  {
+    "name": "Telocvik",
+    "shortText": "Gymnastické posilování převážně s vlastní tělesnou váhou. Využívají se základní tělocvičná nářadí jako jsou hrazda, kruhy, žebřiny, lano apod."
+  },
+  {
+    "name": "Kettlebell",
+    "shortText": " Cílem je získat sílu celého těla pomocí několika různých cviků s kettlebellem (železná koule s uchem)."
+  },
+  {
+    "name": "Open Mat",
+    "shortText": "Open mat je vžitý termín, který můžeme volně přeložit jako „tělocvična k dispozici“. Jedná se o volný osobní trénink, který není vedený."
+  },
+  {
+    "name": "Jiu-Jitsu pro děti",
+    "shortText": "Brazilské Jiu-Jitsu pro děti je rozděleno podle věkových skupin pokrývající děti od 3 do 13 let. Každá skupina má individuální tréningový program postavený co nejvhodněji pro danou věkovou kategorii"
+  }
+]

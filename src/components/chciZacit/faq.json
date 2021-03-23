@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "q": "Kdy můžu na postoupit mezi pokročilé?",
+      "a": "1 cyklus jiu-jitsu pro začátečníky (GB1) trvá 4 měsíce (trénink 2-3x týdně). Po zisku 3 proužků na bílém pásu máš možnost chodit mezi pokročilé (GB2). To zpravidla trvá 4-8 měsíců. MMA má tréninky spojené a trenér rozhoduje o tom, s kým budeš ve skupině trénovat.Na kondičním boxu jsou tréninky taktéž spojené, ale tady jde hlavně o kondiční stránku, takže po zvládnutí základů, které se naučíš hned na první lekci, trénuješ hned se všemi.",
+      "key": "1"
+    },
+    {
+      "q": "Je nějaká možnost dohnat zmeškané lekce?",
+      "a": "Tréninky jiu-jitsu jsou 2x týdně a vždy v pátek je navíc opakovací trénink, kde se proberou oba proběhlé tréninky.",
+      "key": "2"
+    },
+    {
+      "q": "Jaký je rozdíl mezi JIU-JITSU a MMA v tréninzích?",
+      "a": "U jiu-jitsu se jde u technik více do hloubky a je kladen větší důraz na detaily. U MMA je to navíc celý striking (údery) a wrestling (zápas). MMA je mnohem více náročnější na kondičku",
+      "key": "3"
+    },
+    {
+      "q": "Je možné chodit na více kurzů současně?",
+      "a": "Ano, je to možné. Cena se již nemění. Vše závisí pouze na Tvých možnostech. Nicméně pokud to myslíš vážně, je lepší se věnovat jednomu sportu.",
+      "key": "4"
+    },
+    {
+      "q": "Co s sebou na trénink?",
+      "a": "Na první trénink se dostav 10 minut před zahájením tréninku, aby se stihly vyřídit veškeré formality. S sebou si vezmi světlé tričko, šortky, vodu na pití a ručník (po tréninku je možnost se osprchovat). Cvičí se sice na boso, ale pro přechod mezi šatnou, WC a tělocvičnou používáme každý vlastní přezůvky. Pokud si vytvoříš registraci, máš tento první trénink zdarma.",
+      "key": "5"
+    },
+    {
+      "q": "Kdy budou probíhat tréninky?",
+      "a": "Rozpis tréninků má každá pobočka individuální. Nábor probíhá neustlále a je jedno, kdy do toho „cyklu“ vstoupíš. Jednoduše si vyhledej v sekci pobočky tu svou a tam najdeš veškeré info, jako je rozvrh, ceník, kontakt na trenéra a adresu.",
+      "key": "6"
+    },
+    {
+      "q": "Můžu se přijít podívat, jak takový trénink vypadá?",
+      "a": "Ano, můžeš. Tréninky jsou volně přístupné pro veřejnost a můžeš se přijít podívat na jakýkoliv trénink, dokonce i na tréninky pokročilých.",
+      "key": "7"
+    },
+    {
+      "q": "Nikdy jsem necvičil, mám z toho strach. Videa vypadají drsně. Zvládnu to?",
+      "a": "To, co je prezentováno na videích, je vrchol gladiátorství a tihle chlapi se to nenaučili za měsíc. Každý jednou začínal. Tréninky jsou maximálně bezpečné jako každý jiný sport. Není žádný důvod se obávat, či mít strach, že to člověk nezvládne. Proto máme kurz základů a tak jako ve všem, i tady se jde krůček po krůčku. Jiu-jitsu vyučujeme dokonce také pro děti od 4 let, takže opravdu není důvod k obavám. Naopak nejstaršímu účastníkovi bylo přes 50 let.",
+      "key": "8"
+    },
+    {
+      "q": "Kolik to stojí?",
+      "a": "Standardní cena je 999 Kč za kalendářní měsíc a můžeš navštěvovat všechny kurzy ve všech našich pobočkách. Ale jsou tady i jiné možnosti. Kompletní ceník najdeš vždy na stránce dané pobočky.",
+      "key": "9"
+    },
+    {
+      "q": "Na tréninky již chodí jiný člen naší rodiny (sourozenec, dítě, rodič, …). Je možné si zakoupit nějakou rodinnou permanentku?",
+      "a": "Ano, taková možnost tady je. Je nám jasné, že finanční rozpočet rodiny není nafukovací a proto je tady maximální částka, kterou u nás rodina měsíčně utratí. Ta částka je 1499 Kč měsíčně. To znamená, že na tuto rodinnou permanentku může kdokoliv z rodiny navštěvovat jakýkoliv námi nabízený kurz. Rodinou se rozumí společenství, které žije pod jednou střechou se společným příjmem. Takže to může být třeba i nesezdaný pár, ale musí spolu žít. Naopak to nejsou bratři, kteří již žijí každý někde jinde. Zkrátka jde o to, abychom ulehčili společnému rodinnému rozpočtu.",
+      "key": "10"
+    },
+    {
+      "q": "Chci se registrovat. Co mám pro to udělat?",
+      "a": "Nejdříve si vyber, co chceš trénovat. Podle toho vyplň daný formulář. Pokud chceš dělat více věcí, tak nám to do poznámky napiš. Po jeho vyplnění Ti přijde ihned automatický email s informacemi. Pokud Ti email nepřijde, vyplň registraci znovu, protože jsi pravděpodobně udělal chybu v emailu.",
+      "key": "11"
+    },
+    {
+      "q": "Musím se registrovat?",
+      "a": "Když se registruješ, tak získáš možnost prvního tréninku zdarma na zkoušku, po kterém se teprve rozhodneš, zda-li chceš pokračovat nebo ne. K ničemu se nezavazuješ. Členem spolku se stáváš až po zaplacení první členského příspěvku.",
+      "key": "12"
+    }
+  ]
+}
