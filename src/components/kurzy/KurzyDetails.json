@@ -1,0 +1,159 @@
+[
+  {
+    "name": "MMA",
+    "firstP": "Snad každý se někdy zamyslel nad tím, který bojový styl je nejlepší  a který by vyhrál, jestli karate, judo nebo box nebo… Proto v roce 1993 vznikl šampionát UFC, který takovéto porovnání nabídl. Šampionát vyhrál Royce Gracie, mistr brazilského jiu-jitsu , jehož rodina vyvinula tento styl na začátku 20. století. Zvítězil díky umění boje na zemi a tím ostatním ukázal, co jim chybí.",
+    "secondP": "MMA zápasy jsou dnes právem označovány jako smíšená bojová umění, v originále Mixed Martial Arts (MMA), neboť bojovníci musejí ovládat jak boj v postoji (např. box), zápas v klinči (wrestling), tak i boj na zemi (brazilské jiu-jitsu). Jednodimenzionální bojovník nemá šanci. Jedná se tedy komplexní způsob boje. I když je MMA směsicí různých bojových umění, vznikla tady jedna mezera, kterou neřeší žádný bojový styl a to údery na zemi neboli ground and pound. Jedná se o boj na zemi doplněný údery, které mohou sice soupeře pouze navolnit k nasazení páky či škrcení, ale také mohou zápas ukončit způsobem K.O. Zápasy se odehrávají většinou v&nbsp;osmihranné kleci, která brání bojovníkům propadnutí mezi lany ringu. A to je další prvek, který musí zápasník zvládnout – boj u stěny klece. Tréninky jsou hned od začátku koncipovány jako samostatné MMA",
+    "header": "MMA JE NEJRYCHLEJI SE ROZVÍJEJÍCÍM SPORTEM NA CELÉM SVĚTĚ",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/Background_image.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/mma2.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg"
+      }
+    ],
+
+    "cities": ["frýdek-místek", "kroměříž", "zlín", "třinec"]
+  },
+  {
+    "name": "Jiu-Jitsu",
+    "firstP": "Brazilské Jiu-Jitsu je způsob boje na zemi bez použití úderů a kopů, namísto toho se zde spoléhá na kontrolu oponenta, páky a škrcení. Právě pro svou téměř bezbřehou škálu technik a jejich kombinací můžou být souboje v BJJ velice dynamickým a inteligentním procesem akcí a reakcí, díky čemuž si BJJ vysloužilo přezdívku lidské šachy. Byť výrazně přispívá k fyzickému stavu trénujících, jeho efektivita technik v praxi dovoluje s použitím minima fyzického úsilí porazit silnější protivníky. Proto je BJJ osvědčenou formou sebeobrany vhodnou jak pro děti, tak pro lidi starší 50ti let.",
+    "secondP": "Za zakladatele se považuje rodina Gracie, jenž je vyvinula na začátku 20. století z juda. Na rozdíl od jiných systémů se zde nekonají zkoušky, ale stupeň je udělen mistrem (držitel černého pásu) na základě jeho šikovnosti v boji. Jinými slovy pásek každého trénujícího přímo odráží jeho opravdovou úroveň v boji. Pro starší 16-ti let se udělují tyto pásky: bílý, modrý, fialový, hnědý a černý. V BJJ se soutěží a to jak v gi (kimono), tak bez něj – nogi.",
+    "header": "BRAZILSKÉ JIU-JITSU JE JAKO LIDSKÉ ŠACHY",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/heliograciefamilia.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
+      }
+    ],
+
+    "cities": [
+      "ostrava",
+      "frýdek-místek",
+      "kroměříž",
+      "vyškov",
+      "olomouc",
+      "opava",
+      "třinec"
+    ]
+  },
+  {
+    "name": "Jiu-Jitsu pro děti",
+    "firstP": "Brazilské Jiu-Jitsu je způsob boje na zemi bez použití úderů a kopů, namísto toho se zde spoléhá na kontrolu oponenta, páky a škrcení. Právě pro svou téměř bezbřehou škálu technik a jejich kombinací můžou být souboje v BJJ velice dynamickým a inteligentním procesem akcí a reakcí, díky čemuž si BJJ vysloužilo přezdívku lidské šachy. Byť výrazně přispívá k fyzickému stavu trénujících, jeho efektivita technik v praxi dovoluje s použitím minima fyzického úsilí porazit silnější protivníky. Proto je BJJ osvědčenou formou sebeobrany vhodnou jak pro děti, tak pro lidi starší 50ti let.",
+    "secondP": "Za zakladatele se považuje rodina Gracie, jenž je vyvinula na začátku 20. století z juda. Na rozdíl od jiných systémů se zde nekonají zkoušky, ale stupeň je udělen mistrem (držitel černého pásu) na základě jeho šikovnosti v boji. Jinými slovy pásek každého trénujícího přímo odráží jeho opravdovou úroveň v boji. Pro starší 16-ti let se udělují tyto pásky: bílý, modrý, fialový, hnědý a černý. V BJJ se soutěží a to jak v gi (kimono), tak bez něj – nogi.",
+    "header": "BRAZILSKÉ JIU-JITSU JE JAKO LIDSKÉ ŠACHY",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/heliograciefamilia.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
+      }
+    ],
+
+    "cities": [
+      "ostrava",
+      "frýdek-místek",
+      "kroměříž",
+      "vyškov",
+      "olomouc",
+      "opava",
+      "třinec"
+    ]
+  },
+  {
+    "name": "Kondicní box",
+    "firstP": "Kondiční box je především o tobě a tvém rozvoji. Ne každý chce jít za každou cenu hned do ringu, tak jak se očekává od profesionálních boxerských klubů. Máme více prostoru pro seberealizaci, proto otevíráme tréninky i lidem, které by do profesionálních boxerských škol nepřijali.",
+    "secondP": "Skladba tréninkových činností se z 90% soustředí na nácvik a zlepšování techniky úderu, kondice a taktického myšlení. V průběhu boxerského utkání řízeného jasně danými pravidly dochází i tak k mnoha rozmanitým pohybovým situacím, které je potřeba nacvičit a takticky vyřešit. Box je tak i v moderním světě stále velká výzva! Přijmeš ji? ",
+    "header": "Létám jako motýl a bodám jako včela",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2018/11/KONDICNI-BOX-1.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicnibox-uvod.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg"
+      }
+    ],
+
+    "cities": ["frýdek-místek", "kroměříž", "vyškov", "třinec"]
+  },
+  {
+    "name": "Telocvik",
+    "firstP": "Pokud chcete udělat něco dobrého pro své tělo, dělejte gymnastiku. A začněte s ní co nejdříve. Nicméně i když už člověk překročil několik dekád svého života, tak stále může začít. Náš trénink dospělých se zaměřuje na silový rozvoj celého těla včetně práce na mobilitě. Podobně jako tomu bylo ve cvičeních v Sokolu a jak by to mělo vypadat v hodinách tělesné výchovy.",
+    "secondP": "Trénink 2-3x týdně po dobu 45-60 min Vás dostane do formy, v jaké jste pravděpodobně ještě nebyli. Díky gymnastickým silovým cvičením vybudujete funkční svalovou sílu, kterou budete moci demonstrovat ve cvicích při práci s vlastním tělem (např. vlajka či dřep na jedné noze). Právě v této oblasti vězí stěžejní gró tréninku. Budeme využívat jak čistě váhu vlastního těla, tak cvičení na hrazdě, bradlech či kruzích. V tréninku bude využito i externí zatížení ve formě činek. Ale nečekejte bicepsové pumpování s jednoručkami nýbrž doplňkové cviky s nízkými vahami. Také budeme budovat i aktivní flexibilitu, která je nezbytnou složkou zdravého těla (např. most či placka). Je třeba být nejen silný, ale také mít k tomu i patřičný rozsah.",
+    "header": "GYMNASTIKU BY MĚL CVIČIT KAŽDÝ. ",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/11/fdg.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik2.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg"
+      }
+    ],
+
+    "cities": ["frýdek-místek"]
+  },
+
+  {
+    "name": "Kettlebell",
+    "firstP": "Hlavní část tréninku se věnuje silové přípravě s kettlebellem (železná koule s uchem). Před hlavním tréninkem se věnujeme dýchání a přípravě těla na silový trénink. Celý trénink zabere max 60 minut a probíhá 2x týdně. Cílem je získat sílu celého těla pomocí několika různých cviků s koulí. Pokročilejší cvičenci pak mohou doplnit svůj trénink o cvičení s vlastní váhou na kruzích, hrazdě, bradlech apod.",
+    "secondP": "Trénink je vhodný jak pro profesionální atlety, tak pro ženy začínající se silovým tréninkem. Veškeré cvičení je v souladu se zdravými postupy. Nejedná se tedy o volbu mezi zdravím a sílou. Naopak. Tady se obě důležité vlastnosti společně snoubí a navzájem podporují.",
+    "header": "KETTLEBELL JE IDEÁLNÍ NÁSTROJ PRO MINIMALISTY.",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell_clanek-6.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell1.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell2.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell3.jpg"
+      }
+    ],
+
+    "cities": ["frýdek-místek"]
+  },
+  {
+    "name": "Open Mat",
+    "firstP": "Open mat je vžitý termín, který můžeme volně přeložit jako „tělocvična k dispozici“. Jedná se o volný osobní trénink, který není vedený. K dispozici je vše, co je v tělocvičně. Člověk si tak sám může zatrénovat podle vlastní chuti. Nebo se taky může s někým domluvit dopředu a zatrénovat si s kamarádem či kamarády. Tento trénink je nezávazný, volný a přístupný pro všechny, kdo chtějí. K dispozici je kompletní vybavení tělocvičny a to jak pro bojové sporty, tak pro fitness (posilování).",
+    "secondP": "K dispozici je také ozvučení. Tělocvična je vybavena 2 toaletami s umyvadlem. V šatně jsou 2 sprchy a jedno umyvadlo. Součástí šatny je také osobní váha. K dispozici je také lékarnička na drobná zranění.",
+    "header": "TRÉNUJTE SAMI NEBO S KAMARÁDY",
+    "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/jiu-jitsu-martial-arts-pursuits-bloomberg-04.jpg",
+    "multipleImages": [
+      {
+        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/om1.jpg"
+      },
+      {
+        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/Om3.jpg"
+      },
+      {
+        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/om2.jpg"
+      }
+    ],
+
+    "cities": ["ostrava", "frýdek-místek", "zlín", "třínec"]
+  }
+]
