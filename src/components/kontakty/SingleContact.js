@@ -1,6 +1,6 @@
 import React from "react";
 const SingleContact = (props) => {
-  let { city, coach, mobil, address, email, fb, ig } = props.gym;
+  let { city, coach, mobil, address, email } = props.gym;
 
   return (
     <div className="single-contact">
