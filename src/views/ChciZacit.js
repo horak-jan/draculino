@@ -5,15 +5,19 @@ import Faqs from "../components/chciZacit/faq.json";
 const ChciZacit = () => {
   return (
     <div className="chci-zacit">
-      <h2>Nadpis</h2>
       <p>
+        <div className="buttonWrapper">
+          <a href="/registrace">
+            <button type="submit">Registrace</button>
+          </a>
+        </div>
         Je nám jasné, že dříve než se zaregistruješ, máš spoustu otázek. Tady
         jsou nejčastější z nich.
       </p>
 
-      {Faqs.faqs.map((faq) => {
-        return <SingleFaq question={faq.q} answer={faq.a} />;
-      })}
+      {Faqs.faqs.map((faq) => (
+        <SingleFaq question={faq.q} answer={faq.a} key={faq.key} />
+      ))}
     </div>
   );
 };
