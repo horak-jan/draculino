@@ -354,13 +354,14 @@ $light-blue: #3b8beb;
         height: 50px;
         width: 50vw;
         margin: 15px;
-        color: black;
+        color: $gb-color;
         background-color: $light-blue;
         align-content: center;
         font-family: $newtown;
         letter-spacing: 0.1rem;
         font-size: 16px;
         text-transform: uppercase;
+        box-shadow: 4px 3px 5px 1px #000;
       }
     }
   }
@@ -393,25 +394,27 @@ $light-blue: #3b8beb;
 // Mobil
 
 .kurzy {
-  background-color: #9e9e9e;
-  background-image: url("./draculino-background.jpg");
   width: 100vw;
-  background-repeat: no-repeat;
-  background-size: 245vh;
-  background-position-x: -207vw;
   max-width: 1200px;
   margin: 0 auto;
 
   .single-kurz {
     width: 100%;
     min-height: 1vh;
+    // margin-top: 1vh;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid black;
     padding-bottom: 3vh;
-
+    background-color: linear-gradient(to right, rgba(255, 255, 255, 0.5), white),
+      url(/static/media/kettlebell1.1145d8bc.jpg);
+    background-size: 36vw;
+    background-repeat: no-repeat;
     h2 {
+      // color: white;
       padding-top: 10px;
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
       a {
         margin: 0;
         padding: 0;
@@ -432,23 +435,32 @@ $light-blue: #3b8beb;
       height: 30px;
       width: 35vw;
       flex: 1;
-      background-color: rgba(0, 0, 0, 0);
+      background-color: #f8f8ff;
       align-content: center;
       font-family: $newtown;
       letter-spacing: 0.1rem;
       margin-top: 1vh;
+      box-shadow: 4px 3px 5px 1px rgb(136, 133, 133);
 
       a {
         color: black;
       }
+    }
+    button:first-of-type {
+      box-shadow: 0px 2px 2px 1px rgb(136, 133, 133);
     }
   }
 
   div:first-of-type {
     padding-top: 4vh;
   }
+  div:nth-of-type(2n) {
+    background-color: #f8f8ff;
+    button {
+      background-color: white;
+    }
+  }
   div:last-of-type {
-    background-color: #999999;
     border: none;
     padding-bottom: 4vh;
   }
@@ -489,20 +501,59 @@ $light-blue: #3b8beb;
   .kurz-content {
     width: 100vw;
     height: 100vw;
+  }
+}
 
-    // .test {
-    //   position: relative;
-    //   top: -50vh;
-    //   widows: 50%;
-    //   text-align: center;
-    //   color: white;
-    //   h3 {
-    //     text-transform: uppercase;
-    //   }
-    //   h2 {
-    //     margin-top: 6vh;
-    //   }
-    // }
+// single sport page
+// MOBILE
+.sport-details {
+  max-width: 1200px;
+  padding: 0 5px;
+  .carousel {
+    width: 100%;
+    height: 50vh;
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+    top: -25vh;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+    li {
+      display: inline;
+      flex: 1;
+      font-size: 1.1rem;
+      padding: 5px 10px;
+      text-transform: uppercase;
+    }
+  }
+  h2 {
+    margin: 2vh auto;
+    text-align: center;
+    position: relative;
+    top: -23vh;
+  }
+  .ps {
+    position: relative;
+    top: -10vh;
+    margin-bottom: 5vh;
+    p {
+      padding: 0 5vw;
+      margin: 3vh auto;
+    }
+    .singleImg {
+      width: 100%;
+      height: 50vh;
+      margin: 0 auto;
+    }
+    h3 {
+      width: 90vw;
+      text-align: center;
+      margin-bottom: 2vh;
+    }
   }
 }
 
@@ -817,6 +868,7 @@ $light-blue: #3b8beb;
           background-color: $light-blue;
           align-content: center;
           font-family: $newtown;
+          box-shadow: 4px 3px 5px 1px #000;
           letter-spacing: 0.1rem;
           font-size: 16px;
           text-transform: uppercase;
@@ -860,6 +912,7 @@ $light-blue: #3b8beb;
       align-content: center;
       font-family: $newtown;
       letter-spacing: 0.1rem;
+      box-shadow: 4px 3px 5px 1px #000;
       font-size: 16px;
       text-transform: uppercase;
       a {
@@ -1042,6 +1095,58 @@ $light-blue: #3b8beb;
       }
     }
   }
+  // kurzy
+  // TABLET
+
+  .kurzy {
+    position: relative;
+    top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-around;
+    .single-kurz {
+      width: 40%;
+      padding-top: 3vh;
+      background-color: white !important ;
+      button {
+        width: 50%;
+      }
+    }
+    div:last-of-type {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  // single sport page
+  // TABLET / PC
+  .sport-details {
+    max-width: 1200px;
+    padding: 0;
+    margin: 3vh auto 0 auto;
+    .ps {
+      padding: 0 10px;
+    }
+  }
+
+  // registrace
+  // TABLET / PC
+  .registrace {
+    form {
+      text-align: center;
+      .form-error {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      input,
+      select,
+      p {
+        width: 70vw;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
 
   // home
   // TABLET / PC
@@ -1065,10 +1170,13 @@ $light-blue: #3b8beb;
       .home-one-contact {
         max-width: 1200px;
         margin: 0 auto;
-        top: -12vh;
+        background-color: #f8f8ff;
+        top: -11vh;
+        color: black;
+
         .home-one-contact-media {
           max-width: 1200px;
-          margin: 0 auto;
+          margin: 1vh auto 0 auto;
         }
       }
     }
@@ -1080,8 +1188,11 @@ $light-blue: #3b8beb;
           width: 70vw;
           max-width: 600px;
         }
-        button {
-          width: 400px;
+        .buttonWrapper {
+          button {
+            background-color: #f8f8f8;
+            width: 400px;
+          }
         }
       }
     }

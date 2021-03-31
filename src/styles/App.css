@@ -386,7 +386,7 @@
   height: 50px;
   width: 50vw;
   margin: 15px;
-  color: black;
+  color: #e1251b;
   background-color: #3b8beb;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -394,6 +394,8 @@
   letter-spacing: 0.1rem;
   font-size: 16px;
   text-transform: uppercase;
+  -webkit-box-shadow: 4px 3px 5px 1px #000;
+          box-shadow: 4px 3px 5px 1px #000;
 }
 
 .four-o-four {
@@ -422,12 +424,7 @@
 }
 
 .kurzy {
-  background-color: #9e9e9e;
-  background-image: url("./draculino-background.jpg");
   width: 100vw;
-  background-repeat: no-repeat;
-  background-size: 245vh;
-  background-position-x: -207vw;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -436,13 +433,18 @@
   width: 100%;
   min-height: 1vh;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid black;
   padding-bottom: 3vh;
+  background-color: linear-gradient(to right, rgba(255, 255, 255, 0.5), white), url(/static/media/kettlebell1.1145d8bc.jpg);
+  background-size: 36vw;
+  background-repeat: no-repeat;
 }
 
 .kurzy .single-kurz h2 {
   padding-top: 10px;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .kurzy .single-kurz h2 a {
@@ -467,24 +469,38 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #f8f8ff;
   -ms-flex-line-pack: center;
       align-content: center;
   font-family: "newtown", sans-serif;
   letter-spacing: 0.1rem;
   margin-top: 1vh;
+  -webkit-box-shadow: 4px 3px 5px 1px #888585;
+          box-shadow: 4px 3px 5px 1px #888585;
 }
 
 .kurzy .single-kurz button a {
   color: black;
 }
 
+.kurzy .single-kurz button:first-of-type {
+  -webkit-box-shadow: 0px 2px 2px 1px #888585;
+          box-shadow: 0px 2px 2px 1px #888585;
+}
+
 .kurzy div:first-of-type {
   padding-top: 4vh;
 }
 
+.kurzy div:nth-of-type(2n) {
+  background-color: #f8f8ff;
+}
+
+.kurzy div:nth-of-type(2n) button {
+  background-color: white;
+}
+
 .kurzy div:last-of-type {
-  background-color: #999999;
   border: none;
   padding-bottom: 4vh;
 }
@@ -529,6 +545,69 @@
 .kurzy .kurz-content {
   width: 100vw;
   height: 100vw;
+}
+
+.sport-details {
+  max-width: 1200px;
+  padding: 0 5px;
+}
+
+.sport-details .carousel {
+  width: 100%;
+  height: 50vh;
+}
+
+.sport-details ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -25vh;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sport-details ul li {
+  display: inline;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.sport-details h2 {
+  margin: 2vh auto;
+  text-align: center;
+  position: relative;
+  top: -23vh;
+}
+
+.sport-details .ps {
+  position: relative;
+  top: -10vh;
+  margin-bottom: 5vh;
+}
+
+.sport-details .ps p {
+  padding: 0 5vw;
+  margin: 3vh auto;
+}
+
+.sport-details .ps .singleImg {
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.sport-details .ps h3 {
+  width: 90vw;
+  text-align: center;
+  margin-bottom: 2vh;
 }
 
 .chci-zacit {
@@ -862,6 +941,8 @@
   -ms-flex-line-pack: center;
       align-content: center;
   font-family: "newtown", sans-serif;
+  -webkit-box-shadow: 4px 3px 5px 1px #000;
+          box-shadow: 4px 3px 5px 1px #000;
   letter-spacing: 0.1rem;
   font-size: 16px;
   text-transform: uppercase;
@@ -907,6 +988,8 @@
       align-content: center;
   font-family: "newtown", sans-serif;
   letter-spacing: 0.1rem;
+  -webkit-box-shadow: 4px 3px 5px 1px #000;
+          box-shadow: 4px 3px 5px 1px #000;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -1089,6 +1172,52 @@
   .navbar .nav ul li a:hover {
     text-decoration: underline;
   }
+  .kurzy {
+    position: relative;
+    top: 3vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .kurzy .single-kurz {
+    width: 40%;
+    padding-top: 3vh;
+    background-color: white !important;
+  }
+  .kurzy .single-kurz button {
+    width: 50%;
+  }
+  .kurzy div:last-of-type {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .sport-details {
+    max-width: 1200px;
+    padding: 0;
+    margin: 3vh auto 0 auto;
+  }
+  .sport-details .ps {
+    padding: 0 10px;
+  }
+  .registrace form {
+    text-align: center;
+  }
+  .registrace form .form-error {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .registrace form input,
+  .registrace form select,
+  .registrace form p {
+    width: 70vw;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .home {
     max-width: 1200px;
     margin: 0 auto;
@@ -1110,11 +1239,13 @@
   .home .home-one .home-one-contact {
     max-width: 1200px;
     margin: 0 auto;
-    top: -12vh;
+    background-color: #f8f8ff;
+    top: -11vh;
+    color: black;
   }
   .home .home-one .home-one-contact .home-one-contact-media {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 1vh auto 0 auto;
   }
   .home .home-two .home-form {
     text-align: center;
@@ -1124,7 +1255,8 @@
     width: 70vw;
     max-width: 600px;
   }
-  .home .home-two .home-form button {
+  .home .home-two .home-form .buttonWrapper button {
+    background-color: #f8f8f8;
     width: 400px;
   }
   .home .home-three {
