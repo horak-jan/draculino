@@ -641,9 +641,8 @@
   padding: 0 5px;
 }
 
-.sport-details .carousel {
-  width: 100%;
-  height: 50vh;
+.sport-details .ready-slider {
+  margin-top: 5vh;
 }
 
 .sport-details ul {
@@ -657,6 +656,8 @@
   max-width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  z-index: 5;
+  color: white;
 }
 
 .sport-details ul li {
@@ -674,6 +675,8 @@
   text-align: center;
   position: relative;
   top: -23vh;
+  color: white;
+  z-index: 5;
 }
 
 .sport-details .ps {
@@ -748,6 +751,7 @@
   margin-top: 10px;
   padding: 10vw 5vw 5vh;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .registrace h2 {
@@ -1297,8 +1301,14 @@
     padding: 0;
     margin: 3vh auto 0 auto;
   }
+  .sport-details .ready-slider {
+    margin-top: 0;
+  }
   .sport-details .ps {
     padding: 0 10px;
+  }
+  .registrace {
+    padding-top: 5vh;
   }
   .registrace form {
     text-align: center;

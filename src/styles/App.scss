@@ -585,9 +585,8 @@ $light-blue: #3b8beb;
 .sport-details {
   max-width: 1200px;
   padding: 0 5px;
-  .carousel {
-    width: 100%;
-    height: 50vh;
+  .ready-slider {
+    margin-top: 5vh;
   }
 
   ul {
@@ -598,6 +597,8 @@ $light-blue: #3b8beb;
     margin: 0 auto;
     max-width: 100%;
     flex-wrap: wrap;
+    z-index: 5;
+    color: white;
     li {
       display: inline;
       flex: 1;
@@ -611,6 +612,8 @@ $light-blue: #3b8beb;
     text-align: center;
     position: relative;
     top: -23vh;
+    color: white;
+    z-index: 5;
   }
   .ps {
     position: relative;
@@ -684,6 +687,7 @@ $light-blue: #3b8beb;
   margin-top: 10px;
   padding: 10vw 5vw 5vh;
   max-width: 1200px;
+  margin: 0 auto;
   h2 {
     text-align: center;
     font-family: $newtown;
@@ -1201,6 +1205,10 @@ $light-blue: #3b8beb;
     max-width: 1200px;
     padding: 0;
     margin: 3vh auto 0 auto;
+
+    .ready-slider {
+      margin-top: 0;
+    }
     .ps {
       padding: 0 10px;
     }
@@ -1209,6 +1217,7 @@ $light-blue: #3b8beb;
   // registrace
   // TABLET / PC
   .registrace {
+    padding-top: 5vh;
     form {
       text-align: center;
       .form-error {

@@ -16,7 +16,7 @@ const SportDetails = () => {
     multipleImages,
     cities,
   } = sportToDisplay[0];
-  console.log(multipleImages.one);
+  console.log(multipleImages[0]);
   //images for carousel
   const images = {
     Image1: multipleImages[0],

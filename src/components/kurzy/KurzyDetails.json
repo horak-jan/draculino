@@ -6,15 +6,9 @@
     "header": "MMA JE NEJRYCHLEJI SE ROZVÍJEJÍCÍM SPORTEM NA CELÉM SVĚTĚ",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/Background_image.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/mma2.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/mma2.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/mma.jpg"
     ],
 
     "cities": ["frýdek-místek", "kroměříž", "zlín", "třinec"]
@@ -26,15 +20,9 @@
     "header": "BRAZILSKÉ JIU-JITSU JE JAKO LIDSKÉ ŠACHY",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/heliograciefamilia.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
     ],
 
     "cities": [
@@ -54,15 +42,9 @@
     "header": "BRAZILSKÉ JIU-JITSU JE JAKO LIDSKÉ ŠACHY",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/heliograciefamilia.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ5.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJJ3.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/BJj2.jpg"
     ],
 
     "cities": [
@@ -82,15 +64,9 @@
     "header": "Létám jako motýl a bodám jako včela",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2018/11/KONDICNI-BOX-1.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicnibox-uvod.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2018/11/kondicnibox-uvod.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2018/11/kondicni_box.jpg"
     ],
 
     "cities": ["frýdek-místek", "kroměříž", "vyškov", "třinec"]
@@ -102,15 +78,9 @@
     "header": "GYMNASTIKU BY MĚL CVIČIT KAŽDÝ. ",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/11/fdg.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik2.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik2.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/telocvik.jpg"
     ],
 
     "cities": ["frýdek-místek"]
@@ -123,15 +93,9 @@
     "header": "KETTLEBELL JE IDEÁLNÍ NÁSTROJ PRO MINIMALISTY.",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell_clanek-6.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell1.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell2.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell3.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell1.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell2.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2020/08/kettlebell3.jpg"
     ],
 
     "cities": ["frýdek-místek"]
@@ -143,15 +107,9 @@
     "header": "TRÉNUJTE SAMI NEBO S KAMARÁDY",
     "singleImage": "https://www.draculino.cz/wp-content/uploads/2017/10/jiu-jitsu-martial-arts-pursuits-bloomberg-04.jpg",
     "multipleImages": [
-      {
-        "one": "https://www.draculino.cz/wp-content/uploads/2017/10/om1.jpg"
-      },
-      {
-        "two": "https://www.draculino.cz/wp-content/uploads/2017/10/Om3.jpg"
-      },
-      {
-        "three": "https://www.draculino.cz/wp-content/uploads/2017/10/om2.jpg"
-      }
+      "https://www.draculino.cz/wp-content/uploads/2017/10/om1.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/Om3.jpg",
+      "https://www.draculino.cz/wp-content/uploads/2017/10/om2.jpg"
     ],
 
     "cities": ["ostrava", "frýdek-místek", "zlín", "třínec"]

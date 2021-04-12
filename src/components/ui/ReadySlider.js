@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "infinite-react-carousel";
 
 const ReadySlider = (props) => {
-  let { Image1, Image2, Image3, StyleSettings, ImageText } = props;
-
+  let { StyleSettings, ImageText } = props;
+  let { Image1, Image2, Image3 } = props.images;
   const settings = {
     arrows: false,
     arrowsBlock: false,
@@ -20,10 +20,13 @@ const ReadySlider = (props) => {
     color: "white",
     textTransform: "uppercase",
     fontFamily: "monospace",
-    zIndex: "10 !important",
+    zIndex: "5",
   };
 
-  const PStyle = { fontSize: "1.2rem", textTransform: "lowercase" };
+  const PStyle = {
+    fontSize: "1.2rem",
+    textTransform: "lowercase",
+  };
 
   return (
     <div className="ready-slider">
