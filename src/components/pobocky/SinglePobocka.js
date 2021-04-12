@@ -1,4 +1,3 @@
-// maps app key = AIzaSyDRGee80tnPsO-6J54uiZZqSTmYnlrg8eQ
 import React from "react";
 import { useHistory } from "react-router-dom";
 import { useStateValue } from "../../State";
