@@ -16,12 +16,12 @@ const SportDetails = () => {
     multipleImages,
     cities,
   } = sportToDisplay[0];
-  console.log(multipleImages[0].one);
+  console.log(multipleImages.one);
   //images for carousel
   const images = {
-    Image1: multipleImages[0].one,
-    Image2: multipleImages[1].two,
-    Image3: multipleImages[2].three,
+    Image1: multipleImages[0],
+    Image2: multipleImages[1],
+    Image3: multipleImages[2],
   };
   //style setting for carousel
   const StyleSettings = { width: "100%", height: "50vh" };
