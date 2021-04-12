@@ -390,6 +390,115 @@ $light-blue: #3b8beb;
   }
 }
 
+// pobocky
+// MOBIL
+.pobocky-view {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  .single-pobocka {
+    width: 100%;
+    min-height: 1vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 3vh;
+    h2 {
+      padding-top: 10px;
+      max-width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1vh;
+      font-size: 21px;
+    }
+    p {
+      margin: 1vh 1vw;
+      font-family: monospace;
+    }
+
+    button {
+      height: 30px;
+      width: 35vw;
+      flex: 1;
+      background-color: #f8f8ff;
+      align-content: center;
+      font-family: $newtown;
+      letter-spacing: 0.1rem;
+      margin-top: 1vh;
+      box-shadow: 4px 3px 5px 1px rgb(136, 133, 133);
+      color: black;
+    }
+    button:first-of-type {
+      box-shadow: 0px 2px 2px 1px rgb(136, 133, 133);
+    }
+  }
+  div:first-of-type {
+    padding-top: 4vh;
+  }
+  div:nth-of-type(2n) {
+    background-color: #f8f8ff;
+    button {
+      background-color: white;
+    }
+  }
+  div:last-of-type {
+    border: none;
+    padding-bottom: 4vh;
+  }
+}
+
+//pobocka details
+// MOBILE
+.pobocka-details {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0;
+  .pobocka-header {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1px;
+    .pobocka-header-sports {
+      display: none;
+      p {
+        display: inline-block;
+        text-decoration: underline;
+        position: relative;
+        top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+      }
+    }
+    h1 {
+      font-size: 22px;
+      padding-top: 15%;
+      text-align: center;
+      color: white;
+    }
+  }
+  .pobocka-info {
+    min-height: 20vh;
+  }
+  .pobocka-info {
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    background-color: #f8f8ff;
+    h3 {
+      font-size: 18px;
+      margin-bottom: 2vh;
+    }
+    p {
+      margin-bottom: 1vh;
+    }
+  }
+}
+
 // Kurzy
 // Mobil
 
@@ -463,39 +572,6 @@ $light-blue: #3b8beb;
   div:last-of-type {
     border: none;
     padding-bottom: 4vh;
-  }
-
-  .carousel {
-    height: 80vh;
-    width: 100vw;
-    div {
-      position: absolute;
-      top: 18px;
-      z-index: -1;
-      .carousel-initialized {
-        width: 100vw;
-        height: 96vh;
-      }
-      .carousel-track {
-        border: 1px solid red;
-        height: 80vh;
-        width: 100vw;
-        position: relative;
-        top: 1px;
-
-        .carousel-item {
-          border: 1px solid black;
-          height: 100vh;
-          width: 100vw;
-          overflow: hidden;
-          img {
-            overflow: hidden;
-            width: 100vw;
-            height: 100vh;
-          }
-        }
-      }
-    }
   }
 
   .kurz-content {
@@ -1098,14 +1174,16 @@ $light-blue: #3b8beb;
   // kurzy
   // TABLET
 
-  .kurzy {
+  .kurzy,
+  .pobocky-view {
     position: relative;
     top: 3vh;
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     justify-content: space-around;
-    .single-kurz {
+    .single-kurz,
+    .single-pobocka {
       width: 40%;
       padding-top: 3vh;
       background-color: white !important ;
@@ -1234,8 +1312,17 @@ $light-blue: #3b8beb;
     width: 400px;
   }
 
-  // kontakty
-  // TABLET / PC
+  // pobocka
+  //  PC
+  .pobocka-details {
+    padding-top: 2vh;
+
+    .pobocka-header {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
 
   // o nas
   // TABLET / MOBIL

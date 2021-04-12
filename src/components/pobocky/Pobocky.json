@@ -1,0 +1,115 @@
+[
+  {
+    "city": "Frýdek-Místek",
+    "coach": "Robin Javorek (černý pás)",
+    "mobil": "+420 724 711 515",
+    "address": "Jiráskova (Mánesova) 3320, Frýdek-Místek",
+    "email": "frydekmistek@draculino.cz",
+    "fb": "www.facebook.com/draculino.frydekmistek",
+    "ig": "www.instagram.com/draculino.frydekmistek",
+    "coordinates": {
+      "lat": "49.68516106654462",
+      "lng": "18.35684831375387"
+    },
+    "sports": [
+      "BJJ",
+      "MMA",
+      "TĚLOCVIK",
+      "KONDIČNÍ BOX",
+      "BJJ PRO DĚTI",
+      "KETTLEBELL",
+      "OPEN MAT"
+    ],
+    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/fm2.jpg"
+  },
+  {
+    "city": "Vyškov",
+    "coach": "Zdeněk Kaňa (fialový pás)",
+    "mobil": "+420 607 654 288",
+    "email": "moravskemalkovice@draculino.cz",
+    "address": "Palánek 476/75, 682 01 Výškov",
+    "fb": " www.facebook.com/gbmoravskemalkovice",
+    "ig": "none",
+    "coordinates": {
+      "lat": "49.27522577572203",
+      "lng": "17.000324311657632"
+    },
+    "sports": ["BJJ", "KONDIČNÍ BOX", "BJJ PRO DĚTI"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2020/08/vyskov1.jpg"
+  },
+  {
+    "city": "Olomouc",
+    "coach": "Karel Kazlepka (hnědý pás)",
+    "mobil": "+420 731 756 921",
+    "address": "Holická 559/31q, Olomouc – Hodolany",
+    "email": "olomouc@draculino.cz",
+    "fb": "https://www.facebook.com/draculino.olomouc/",
+    "ig": "none",
+    "coordinates": {
+      "lat": "49.58434440852667",
+      "lng": "17.272738942357865"
+    },
+    "sports": ["BJJ"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/olomouc2.jpg"
+  },
+  {
+    "city": "Opava",
+    "coach": "Pavel Roder (fialový pás)",
+    "mobil": "+420 604 595 035",
+    "address": "B. Němcové 1/20, Opava",
+    "email": "opava@draculino.cz",
+    "fb": "www.facebook.com/draculino.opava",
+    "ig": "www.instagram.com/draculino.opava",
+    "coordinates": {
+      "lat": "49.931007176658554",
+      "lng": "17.91101019818805"
+    },
+    "sports": ["BJJ"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2019/08/opava.jpg"
+  },
+  {
+    "city": "Ostrava",
+    "coach": "Jan „Nitro“ Heindl (hnědý pás)",
+    "mobil": "+420 739 537 778",
+    "address": "Moravská 964/2, Ostrava-Vítkovice",
+    "email": "ostrava@draculino.cz",
+    "fb": "www.facebook.com/draculino.ostrava",
+    "ig": "www.instagram.com/draculino.ostrava",
+    "coordinates": {
+      "lat": "49.797858449926544",
+      "lng": "18.26885214051194"
+    },
+    "sports": ["BJJ", "BJJ PRO DĚTI", "OPEN MAT"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/ostrava2.jpg"
+  },
+  {
+    "city": "Třinec",
+    "coach": "Michal „Hero“ Sumelidis (hnědý pás)",
+    "mobil": "+420 722 036 028",
+    "address": "Komenského 812, Třinec",
+    "email": " trinec@draculino.cz",
+    "fb": "www.facebook.com/draculino.trinec",
+    "ig": "www.instagram.com/draculino.trinec",
+    "coordinates": {
+      "lat": "49.67435171033727",
+      "lng": "18.67298471352152"
+    },
+    "sports": ["BJJ", "MMA", "KONDIČNÍ BOX", "BJJ PRO DĚTI", "OPEN MAT"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/trinec87.jpg"
+  },
+  {
+    "city": "Zlín",
+    "coach": "Radek Spáčil (fialový pás)",
+    "mobil": "+420 603 569 181",
+    "address": "Kvítková 3687, Zlín",
+    "email": "zlin@draculino.cz",
+    "fb": "www.facebook.com/draculino.zlin",
+    "ig": "none",
+    "coordinates": {
+      "lat": "49.22724242762673",
+      "lng": "17.676380955834244"
+    },
+    "sports": ["BJJ", "MMA", "OPEN MAT"],
+    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/Gym_Zlin_1.jpg"
+  }
+]

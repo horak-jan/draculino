@@ -423,6 +423,132 @@
   font-family: "newtown", sans-serif;
 }
 
+.pobocky-view {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pobocky-view .single-pobocka {
+  width: 100%;
+  min-height: 1vh;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 3vh;
+}
+
+.pobocky-view .single-pobocka h2 {
+  padding-top: 10px;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  font-size: 21px;
+}
+
+.pobocky-view .single-pobocka p {
+  margin: 1vh 1vw;
+  font-family: monospace;
+}
+
+.pobocky-view .single-pobocka button {
+  height: 30px;
+  width: 35vw;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #f8f8ff;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: "newtown", sans-serif;
+  letter-spacing: 0.1rem;
+  margin-top: 1vh;
+  -webkit-box-shadow: 4px 3px 5px 1px #888585;
+          box-shadow: 4px 3px 5px 1px #888585;
+  color: black;
+}
+
+.pobocky-view .single-pobocka button:first-of-type {
+  -webkit-box-shadow: 0px 2px 2px 1px #888585;
+          box-shadow: 0px 2px 2px 1px #888585;
+}
+
+.pobocky-view div:first-of-type {
+  padding-top: 4vh;
+}
+
+.pobocky-view div:nth-of-type(2n) {
+  background-color: #f8f8ff;
+}
+
+.pobocky-view div:nth-of-type(2n) button {
+  background-color: white;
+}
+
+.pobocky-view div:last-of-type {
+  border: none;
+  padding-bottom: 4vh;
+}
+
+.pobocka-details {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.pobocka-details .pobocka-header {
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1px;
+}
+
+.pobocka-details .pobocka-header .pobocka-header-sports {
+  display: none;
+}
+
+.pobocka-details .pobocka-header .pobocka-header-sports p {
+  display: inline-block;
+  text-decoration: underline;
+  position: relative;
+  top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.pobocka-details .pobocka-header h1 {
+  font-size: 22px;
+  padding-top: 15%;
+  text-align: center;
+  color: white;
+}
+
+.pobocka-details .pobocka-info {
+  min-height: 20vh;
+}
+
+.pobocka-details .pobocka-info {
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  background-color: #f8f8ff;
+}
+
+.pobocka-details .pobocka-info h3 {
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+
+.pobocka-details .pobocka-info p {
+  margin-bottom: 1vh;
+}
+
 .kurzy {
   width: 100vw;
   max-width: 1200px;
@@ -503,43 +629,6 @@
 .kurzy div:last-of-type {
   border: none;
   padding-bottom: 4vh;
-}
-
-.kurzy .carousel {
-  height: 80vh;
-  width: 100vw;
-}
-
-.kurzy .carousel div {
-  position: absolute;
-  top: 18px;
-  z-index: -1;
-}
-
-.kurzy .carousel div .carousel-initialized {
-  width: 100vw;
-  height: 96vh;
-}
-
-.kurzy .carousel div .carousel-track {
-  border: 1px solid red;
-  height: 80vh;
-  width: 100vw;
-  position: relative;
-  top: 1px;
-}
-
-.kurzy .carousel div .carousel-track .carousel-item {
-  border: 1px solid black;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
-
-.kurzy .carousel div .carousel-track .carousel-item img {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
 }
 
 .kurzy .kurz-content {
@@ -1172,7 +1261,8 @@
   .navbar .nav ul li a:hover {
     text-decoration: underline;
   }
-  .kurzy {
+  .kurzy,
+  .pobocky-view {
     position: relative;
     top: 3vh;
     display: -webkit-box;
@@ -1184,15 +1274,22 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .kurzy .single-kurz {
+  .kurzy .single-kurz,
+  .kurzy .single-pobocka,
+  .pobocky-view .single-kurz,
+  .pobocky-view .single-pobocka {
     width: 40%;
     padding-top: 3vh;
     background-color: white !important;
   }
-  .kurzy .single-kurz button {
+  .kurzy .single-kurz button,
+  .kurzy .single-pobocka button,
+  .pobocky-view .single-kurz button,
+  .pobocky-view .single-pobocka button {
     width: 50%;
   }
-  .kurzy div:last-of-type {
+  .kurzy div:last-of-type,
+  .pobocky-view div:last-of-type {
     background-color: rgba(255, 255, 255, 0.5);
   }
   .sport-details {
@@ -1290,6 +1387,12 @@
   }
   .chci-zacit .buttonWrapper button {
     width: 400px;
+  }
+  .pobocka-details {
+    padding-top: 2vh;
+  }
+  .pobocka-details .pobocka-header h1 {
+    font-size: 30px;
   }
   .o-nas .vinicius h2 {
     text-align: center;
