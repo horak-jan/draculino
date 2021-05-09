@@ -1,6 +1,4 @@
 import React from "react";
-import image1 from "../../styles/kids17.jpg";
-import image3 from "../../styles/gb-outside6.jpg";
 
 const HomeFour = () => {
   return (
@@ -14,14 +12,22 @@ const HomeFour = () => {
       </p>
 
       <div className="img-container">
-        <img src={image1} alt="kids1" className="img1" />
+        <img
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593370/draculino/kids17_csdiqs.jpg"
+          alt="kids outside"
+          className="img1"
+        />
       </div>
       <p>
         Nejstarší skupiny ve věku 10-12 a 13-15 let se navíc již také účastní
         jiu-jitsu kempů pro děti, které děláme na Starých Hamrech.
       </p>
       <div className="img-container">
-        <img src={image3} alt="kids3" className="img3" />
+        <img
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593307/draculino/gb-outside6_kysczb.jpg"
+          alt="kids otside"
+          className="img3"
+        />
       </div>
     </div>
   );

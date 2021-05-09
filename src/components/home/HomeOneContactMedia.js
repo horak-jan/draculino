@@ -1,19 +1,25 @@
 import React from "react";
-import Ig from "../../styles/home-ig.png";
-import Fb from "../../styles/home-fb.png";
-import Yt from "../../styles/home-yt.png";
 
 const HomeOneContactMedia = () => {
   return (
     <div className="home-one-contact-media">
       <a href="https://www.instagram.com/draculino.frydekmistek/">
-        <img src={Ig} alt="media icon instagram" />
+        <img
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593429/draculino/home-ig_z3h8kx.png"
+          alt="media icon instagram"
+        />
       </a>
       <a href="https://www.youtube.com/channel/UCV4DqyU9sKgL8H-TiJ3Echw">
-        <img src={Yt} alt="media icon youtube" />
+        <img
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593430/draculino/home-yt_jcz8bm.png"
+          alt="media icon youtube"
+        />
       </a>
       <a href="https://www.facebook.com/draculino.frydekmistek">
-        <img src={Fb} alt="media icon facebook" />
+        <img
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593429/draculino/home-fb_ifjihk.png"
+          alt="media icon facebook"
+        />
       </a>
     </div>
   );

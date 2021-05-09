@@ -9,9 +9,6 @@ import Tournaments2014 from "./Tournaments2014.json";
 import Tournaments2013 from "./Tournaments2013.json";
 import Tournaments2012 from "./Tournaments2012.json";
 import Tournaments2011 from "./Tournaments2012.json";
-import Kids1 from "../../images/kids10.jpg";
-import Kids2 from "../../images/kids16.jpg";
-import Adults from "../../images/adultwin.jpg";
 
 const Tournaments = () => {
   return (
@@ -27,7 +24,11 @@ const Tournaments = () => {
         <p>{tournament}</p>
       ))}
 
-      <img href="boys tournament" src={Kids1} />
+      <img
+        href="boys tournament"
+        src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592587/draculino/kids10_bfiiks.jpg"
+        alt=""
+      />
 
       <p className="bold year">2018</p>
       {Tournaments2018.tournaments.map((tournament) => (
@@ -38,7 +39,11 @@ const Tournaments = () => {
       {Tournaments2017.tournaments.map((tournament) => (
         <p>{tournament}</p>
       ))}
-      <img href="girls tournament" src={Kids2} />
+      <img
+        href="girls tournament"
+        src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592588/draculino/kids16_wtvhmn.jpg"
+        alt=""
+      />
 
       <p className="bold year">2016</p>
       {Tournaments2016.tournaments.map((tournament) => (
@@ -50,7 +55,11 @@ const Tournaments = () => {
         <p>{tournament}</p>
       ))}
 
-      <img href="adults win" src={Adults} />
+      <img
+        href="adults win"
+        src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592587/draculino/adultwin_kazw7v.jpg"
+        alt=""
+      />
 
       <p className="bold year">2014</p>
       {Tournaments2014.tournaments.map((tournament) => (

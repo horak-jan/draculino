@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import BurgerIconOpen from "../../styles/burger-icon-up.png";
-import BurgerIconClosed from "../../styles/burger-icon-down.png";
-import Logo from "../../images/gb-logo-burger.jpg";
 
 const Burger = () => {
   const [visible, setVisible] = useState(false);
@@ -10,7 +7,11 @@ const Burger = () => {
   return (
     <nav className="burger">
       <a href="/">
-        <img id="logo" src={Logo} alt="logo gracie barra draculino" />
+        <img
+          id="logo"
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592952/draculino/gb-logo-burger_t4s8qb.jpg"
+          alt="logo gracie barra draculino"
+        />
       </a>
       {/* burger button when closed/open*/}
       <div
@@ -25,7 +26,7 @@ const Burger = () => {
         <img
           className="burger-button"
           alt="Closed menu button"
-          src={BurgerIconClosed}
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593019/draculino/burger-icon-down_j6gyqr.png"
         />
       </div>
       {/* burger menu links */}
@@ -73,7 +74,7 @@ const Burger = () => {
           <img
             className="burger-button"
             alt="Opened menu button"
-            src={BurgerIconOpen}
+            src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620593020/draculino/burger-icon-up_fjlgkl.png"
           />
         </div>
       </div>

@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoNavLarge from "../../images/gb-logo-main.jpg";
 
 const Nav = () => {
   return (
     <nav className="nav">
       <a href="/">
-        <img alt="logo" src={LogoNavLarge} />{" "}
+        <img
+          alt="logo"
+          src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592952/draculino/gb-logo-main_atpepu.jpg"
+        />{" "}
       </a>
       <ul>
         <li>

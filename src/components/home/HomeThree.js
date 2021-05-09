@@ -14,9 +14,9 @@ const HomeThree = () => {
         šachy.
       </p>
 
-      <button>
-        <a href="/onas">Naše historie</a>
-      </button>
+      <a href="/onas">
+        <button>Naše historie</button>
+      </a>
     </div>
   );
 };

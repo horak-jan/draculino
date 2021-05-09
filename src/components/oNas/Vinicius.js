@@ -1,10 +1,11 @@
 import React from "react";
-import Vinicius1 from "../../images/vinicius.jpg";
-import Vinicius2 from "../../images/vinicius2.jpg";
-import Vinicius3 from "../../images/vinicius3.jpg";
-import ReadySlider from "../ui/ReadySlider";
+import ImageSlider from "../ui/ImageSlider";
 
-const StyleSettings = { width: "100%", height: "60vh" };
+const slides = [
+  "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592683/draculino/vinicius_thevqt.jpg",
+  "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592683/draculino/vinicius2_k6pyvq.jpg",
+  "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592683/draculino/vinicius3_vnsjxk.jpg",
+];
 const Vinicius = () => {
   return (
     <div className="vinicius">
@@ -18,17 +19,12 @@ const Vinicius = () => {
       </p>
 
       <img
-        src={Vinicius1}
+        src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592683/draculino/vinicius_thevqt.jpg"
         className="small"
         alt="Vinicius Draculino Magalhaes"
       />
       <div className="large">
-        <ReadySlider
-          Image1={Vinicius1}
-          Image2={Vinicius2}
-          Image3={Vinicius3}
-          StyleSettings={StyleSettings}
-        />
+        <ImageSlider slides={slides} />
       </div>
       <h3>DRACULINO DOSTAL SVOU PŘEZDÍVKU OD UČITELE MATEMATIKY.</h3>
 

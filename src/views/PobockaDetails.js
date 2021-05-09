@@ -5,7 +5,7 @@ import PobockaMap from "../components/pobocky/PobockaMap";
 import { useStateValue } from "../State";
 
 const PobockaDetails = () => {
-  const [{ selectedPlace }, dispatch] = useStateValue();
+  const [{ selectedPlace }] = useStateValue();
 
   let {
     coordinates,

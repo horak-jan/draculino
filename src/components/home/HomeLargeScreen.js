@@ -1,28 +1,34 @@
 import React from "react";
-import ReadySlider from "../ui/ReadySlider";
-import Home1 from "../../images/home1.jpg";
-import Home2 from "../../images/home2.jpg";
-import Home3 from "../../images/home3.jpg";
+import SliderWithText from "../ui/SliderWithText";
 
 const StyleSettings = { width: "100%", height: "50vh" };
-const ImageText = {
-  text1a: "BJJ",
-  text1b: "měj kontrolu",
-  text2a: "MMA",
-  text2b: "se srdcem gladiátora",
-  text3a: "KONDIČNÍ BOX",
-  text3b: "aby jsi udržel krok, musíš udržet dech",
-};
+const ImageAndText = [
+  {
+    texta: "BJJ",
+    textb: "měj kontrolu",
+    imgSrc:
+      "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620496440/domy/home1_kwk0hn.jpg",
+  },
+  {
+    texta: "MMA",
+    textb: "se srdcem gladiátora",
+    imgSrc:
+      "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620496525/domy/home2_ra26tk.jpg",
+  },
+  {
+    texta: "KONDIČNÍ BOX",
+    textb: "aby jsi udržel krok, musíš udržet dech",
+    imgSrc:
+      "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620496543/domy/home3_dc4u2j.jpg",
+  },
+];
 
 const HomeLargeScreen = () => {
   return (
     <div className="home-large-screen">
-      <ReadySlider
-        Image1={Home1}
-        Image2={Home2}
-        Image3={Home3}
+      <SliderWithText
         StyleSettings={StyleSettings}
-        ImageText={ImageText}
+        imageAndText={ImageAndText}
       />
     </div>
   );

@@ -4,15 +4,15 @@ import { useHistory } from "react-router-dom";
 import { useStateValue } from "../../State";
 
 const SingleKurz = (props) => {
-  let { name, shortText } = { ...props.kurz };
+  let { name, shortText } = props.kurz;
   const [{ selectedSport }, dispatch] = useStateValue();
   let history = useHistory();
 
-  const readMore = (name) => {
+  const readMore = (pickedSportName) => {
     try {
       dispatch({
         type: "pickSport",
-        setSport: name,
+        setSport: pickedSportName,
       });
       history.push("/detailkurzu");
     } catch (error) {

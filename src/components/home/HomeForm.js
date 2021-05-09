@@ -71,9 +71,6 @@ const HomeForm = () => {
         />
         {errors.dob && <p className="form-error">{errors.dob.message}</p>}
 
-        {/* rodne cislo */}
-        {/* <label htmlFor="rc">Would</label>
-        <input name="rc" ref={register({ required: true })} /> */}
         {/* what city to train in */}
         <label htmlFor="city">Pobočka</label>
         <select name="city" ref={register({ required: true })}>
@@ -96,17 +93,7 @@ const HomeForm = () => {
           <option value="internet">Z internetového vyhledávače</option>
           <option value="other">Jiný (uveď v poznámce)</option>
         </select>
-        {/* reason why to start */}
-        {/* <label htmlFor="why">Would</label>
-        <select name="why" ref={register}>
-          <option value="health">Kondice</option>
-          <option value="selfdef">Sebeobrana</option>
-          <option value="sport">Sport</option>
-          <option value="other">Jiný (uveď v poznámce)</option>
-        </select> */}
-        {/* cash /multisport */}
-        {/* <label htmlFor="multisport">Would</label>
-        <input name="multisport" ref={register} /> */}
+
         {/* what you wanna train */}
         <label htmlFor="sport">Jaký kurz Tě zajímá </label>
         <select name="sport" ref={register}>

@@ -2,11 +2,13 @@ import React from "react";
 
 import { useStateValue } from "../State";
 import All from "../components/kurzy/KurzyDetails.json";
-import ReadySlider from "../components/ui/ReadySlider";
+import ImageSlider from "../components/ui/ImageSlider";
+import ListOfCities from "../components/kurzy/ListOfCities";
 const SportDetails = () => {
-  const [{ selectedSport }, dispatch] = useStateValue("");
+  const [{ selectedSport }] = useStateValue();
+
   //filter picked sport
-  const sportToDisplay = All.filter((el) => el.name === selectedSport);
+  const sportToDisplay = All.find((sport) => sport.name === selectedSport);
   const {
     name,
     firstP,
@@ -15,25 +17,14 @@ const SportDetails = () => {
     singleImage,
     multipleImages,
     cities,
-  } = sportToDisplay[0];
-  console.log(multipleImages[0]);
-  //images for carousel
-  const images = {
-    Image1: multipleImages[0],
-    Image2: multipleImages[1],
-    Image3: multipleImages[2],
-  };
-  //style setting for carousel
-  const StyleSettings = { width: "100%", height: "50vh" };
+  } = sportToDisplay;
 
   return (
     <div className="sport-details">
-      <ReadySlider StyleSettings={StyleSettings} images={images} />
-      <ul>
-        {cities.map((city) => (
-          <li>{city}</li>
-        ))}
-      </ul>
+      <ImageSlider slides={multipleImages} />
+
+      <ListOfCities cities={cities} />
+
       <h2>{name}</h2>
       <div className="ps">
         <p>{firstP}</p>

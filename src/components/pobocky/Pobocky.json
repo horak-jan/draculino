@@ -20,7 +20,7 @@
       "KETTLEBELL",
       "OPEN MAT"
     ],
-    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/fm2.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592194/domy/fm2_za6ejp.jpg"
   },
   {
     "city": "Vyškov",
@@ -35,7 +35,7 @@
       "lng": "17.000324311657632"
     },
     "sports": ["BJJ", "KONDIČNÍ BOX", "BJJ PRO DĚTI"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2020/08/vyskov1.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592254/draculino/vyskov1_io8oxs.jpg"
   },
   {
     "city": "Olomouc",
@@ -50,7 +50,7 @@
       "lng": "17.272738942357865"
     },
     "sports": ["BJJ"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/olomouc2.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592316/draculino/olomouc2_o4wvj4.jpg"
   },
   {
     "city": "Opava",
@@ -65,7 +65,7 @@
       "lng": "17.91101019818805"
     },
     "sports": ["BJJ"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2019/08/opava.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592342/draculino/opava_sfqhsi.jpg"
   },
   {
     "city": "Ostrava",
@@ -80,7 +80,7 @@
       "lng": "18.26885214051194"
     },
     "sports": ["BJJ", "BJJ PRO DĚTI", "OPEN MAT"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/ostrava2.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592370/draculino/ostrava2_jm7srr.jpg"
   },
   {
     "city": "Třinec",
@@ -95,7 +95,7 @@
       "lng": "18.67298471352152"
     },
     "sports": ["BJJ", "MMA", "KONDIČNÍ BOX", "BJJ PRO DĚTI", "OPEN MAT"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/trinec87.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592396/draculino/trinec87_ocbxmn.jpg"
   },
   {
     "city": "Zlín",
@@ -110,6 +110,6 @@
       "lng": "17.676380955834244"
     },
     "sports": ["BJJ", "MMA", "OPEN MAT"],
-    "image": "https://www.draculino.cz/wp-content/uploads/2017/10/Gym_Zlin_1.jpg"
+    "image": "https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592423/draculino/Gym_Zlin_1_jgxw2f.jpg"
   }
 ]

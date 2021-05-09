@@ -8,11 +8,11 @@ const SinglePobocka = (props) => {
   const [{ selectedPlace }, dispatch] = useStateValue();
   let history = useHistory();
 
-  const pickThisPlace = (data) => {
+  const pickThisPlace = (place) => {
     try {
       dispatch({
         type: "pickPlace",
-        setPlace: data,
+        setPlace: place,
       });
 
       //redirect to picked place

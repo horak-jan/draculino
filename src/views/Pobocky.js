@@ -1,7 +1,7 @@
 import React from "react";
-
 import PobockyList from "../components/pobocky/Pobocky.json";
 import SinglePobocka from "../components/pobocky/SinglePobocka";
+
 const Pobocky = () => {
   return (
     <div className="pobocky-view">

@@ -1,10 +1,12 @@
 import React from "react";
-import LoaderImg from "../../styles/gb-loader.png";
 
 const Loader = () => {
   return (
     <div className="loader">
-      <img alt="loading" src={LoaderImg} />
+      <img
+        alt="loading"
+        src="https://res.cloudinary.com/dsdaneoq8/image/upload/v1620592023/draculino/gb-loader_naavnh.png"
+      />
     </div>
   );
 };
