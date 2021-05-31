@@ -43,5 +43,5 @@ export class PobockaMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: xxx,
+  apiKey: process.env.maps_key,
 })(PobockaMap);
